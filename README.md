@@ -47,10 +47,6 @@ This model combines machine learning with a custom MT5 indicator developed by Fa
 - **Zero-cross signals** triggered major tops/bottoms in 2025-2026 backtest
 - **Reduces whipsaws** by filtering false breakouts
 
-```mql5
-// Core logic from MaxwellPolarization.mq5
-double mp_value = SMA(Bull_Pressure) - SMA(Bear_Pressure);
-
 ## 👨💻 Author
 
 **Farly Setiawan** 
@@ -60,3 +56,7 @@ Helping 2M Indonesian traders lose less money
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Farly_Setiawan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/faronecapital)
 [![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-farone11-yellow)](https://huggingface.co/farone11)
 [![GitHub](https://img.shields.io/badge/GitHub-farone11-181717?style=for-the-badge&logo=github)](https://github.com/farone11)
+
+```mql5
+// Core logic from MaxwellPolarization.mq5
+double mp_value = SMA(Bull_Pressure) - SMA(Bear_Pressure);
