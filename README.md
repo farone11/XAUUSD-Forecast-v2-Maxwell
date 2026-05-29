@@ -26,6 +26,8 @@ Get real-time BUY/SELL signals for XAUUSD using XGBoost + Maxwell Polarization.
 
 ### 📊 Out-of-Sample Performance: Jan 2024 - May 2026
 
+   ![Maxwell Polarization Backtest](backtest_maxwell.png)
+
 | Metric | **Strategy** | Buy & Hold | Edge |
 | --- | :---: | :---: | :---: |
 | **Total Return** | **+120.39%** | +119.61% | **+0.78%** |
